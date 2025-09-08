@@ -1,1 +1,40 @@
+PS C:\Users\qiany\OneDrive\デスクトップ\test2> cd git_challenge
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git add hello_world
+fatal: pathspec 'hello_world' did not match any files
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git add C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge   
+The most similar command is
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git commit -m "Hello Worldを追加"
+[main a2dad1e] Hello Worldを追加
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git commit -m "Hello Worldを追加"
+[main a2dad1e] Hello Worldを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git add C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> git commit -m ”日本語訳を追加"
+[main 5671619] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> mkdir kada_005 
+
+
+    ディレクトリ: C:\Users\qiany\OneDrive\デスクトップ\test2\git_chall 
+    enge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/09/04     23:11                kada_005
+
+
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> cd kadai_005
+dai_005' が存在しないため検出できません。
+発生場所 行:1 文字:1
++ cd kadai_005
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\qiany\...leng
+   e\kadai_005:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Comma
+   nds.SetLocationCommand
+
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge> cd C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge\kada_005
+PS C:\Users\qiany\OneDrive\デスクトップ\test2\git_challenge\kada_005>
 
